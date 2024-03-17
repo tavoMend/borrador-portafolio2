@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio de Desarrollador Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+
+    <h1>
+      <img src="YO.jpg" />
+      <span>Gustavo Mendoza</span>
+    </h1>
+    <nav>
+      <ul>
+        <div class="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <ul>
+          <li><a href="#sobre-mi">INICIO</a></li>
+          <li><a href="#sobre-mi">SOBRE MI </a></li>
+          <li><a href="#educacion">EDUCACION </a></li>
+          <li><a href="#habilidades">HABILIDADES</a></li>
+          <li><a href="#contacto">CONTACTO</a></li>
+        </ul>
+    </nav>
+  </header>
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>Soy Gustavo Mendoza, Un apasoniado de las tecnologias , Me caracterizo por resilencia , hostetidad y mi capacidad
+      de trabajo en equipo.</p>
+  </section>
+  <section id="educacion">
+    <h2>Educación</h2>
+    <ul>
+      <li>Bachiller tecnico en electricidad (2019)</li>
+      <li>Ingeniero de ciencias de la computacion (2024)</li>
+      <li>Curso de base de Datos en freecodecamp (2023)</li>
+      <li>Experto en programas de ofimatica</li>
+    </ul>
+  </section>
+
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <p>Desarrollador frontend utilizado JS, HTML ,CSS. Conocimientos moderados de base de datos usando SQLserver </p>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form action="#" method="get">
+      <fieldset class="form-group">
+        <legend>Datos personales</legend>
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" name="nombre_usuario" id="nombre" placeholder="Ingrese su nombre">
+        <br>
+        <label for="nombre">Correo personal:</label>
+        <input type="text" name="correo_usuario" id="correo" placeholder="Ingrese correo">
+        <input type="hidden" name="llave" value="hola">
+      </fieldset>
+      <fieldset class="form-group">
+        <legend>Mensaje</legend>
+        <label for="asunto">Asunto</label>
+        <input type="text" name="asunto" id="asunto" placeholder="Ingrese el asunto">
+        <br>
+        <label for="mensaje">Descripción</label>
+        <input type="text" name="descripcion" id="mensaje" placeholder="Ingrese el mensaje">
+        <br>
+        <label for="Archivos">Archivos adjuntos</label>
+        <input type="file" name="Arhivos" id="Archivos">
+      </fieldset>
+      <input id="boton" type="submit" value="Enviar">
+    </form>
+  </section>
+
+  <footer>
+    <p>Derechos de autor © 2024 - Portafolio de Gustavo Mendoza </p>
+  </footer>
+
+</body>
+
+</html>
